@@ -1,0 +1,102 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	height: 620px;
+	width: 100%;
+	background: rgb(0,0,0);
+}
+
+
+.introduction {
+	height: 120px;
+	background: rgb(247,223,204);
+}
+
+.discussions {
+	display: grid;
+	grid-template-columns:33.3% 33.3% 33.3%;
+}
+
+.post {
+	height: 375px;
+	padding: 2em;
+}
+
+
+h1,h2,h3,h4,h5 {
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 5em;
+	font-family: krungthep;	
+	font-weight: bold;
+	color: rgb(207,46,141);
+}
+
+h2 {
+	font-size: 2em;
+	font-family: kohinoor devanagari;
+	color: rgb(0,0,0);
+}
+
+h3 {
+	font-weight: 1.5em;
+	font-family: gotham, book;
+	color: rgb(0,0,0);
+}
+
+h4 {
+	font-size: 12em;
+	color: rgb(255,255,255);
+	font-family: kohinoor devanagari;
+	font-style: italic;
+}
+
+	
+.purple-flower {
+	background: rgb(141,113,124);
+}
+
+.olive-buff {
+	background: rgb(169,152,103);
+}
+
+
+.violet-blue {
+	background: rgb(53,53,80);
+}
+
+
+
+
+.projects {
+	height: 120px;
+	background: rgb(222,240,245);
+}
+
+.confounding_tools {
+	height: 220px;
+	background: rgb(199,200,171);
+}
+
+.parametrics_and_generation {
+	height: 220px;
+	background: rgb(92,28,49);
+}
+
+.me_of_the_screen {
+	height: 220px;
+	background: rgb(102,144,148);
+}
+
+.proces {
+	height: 120px;
+	background: rgb(247,223,204);
+}
+
+
