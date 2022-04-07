@@ -5,98 +5,132 @@
 }
 
 header {
-	height: 620px;
+	height: 695px;
 	width: 100%;
-	background: rgb(0,0,0);
+	background: rgb(255,235,235);
 }
 
 
 .introduction {
-	height: 120px;
-	background: rgb(247,223,204);
+	height: 155px;
+	background: rgb(255,255,255);
 }
 
 .discussions {
 	display: grid;
-	grid-template-columns:33.3% 33.3% 33.3%;
+	grid-template-columns:50% 50% 
 }
 
 .post {
-	height: 375px;
+	height: 280px;
 	padding: 2em;
 }
 
 
-h1,h2,h3,h4,h5 {
+
+
+h1,h2,h3,h4,h5,h6 {
 	font-weight: normal;
 }
 
-h1 {
-	font-size: 5em;
-	font-family: krungthep;	
+h1 { 
+	font-size: 5.5em;
+	font-family: gotham;	
 	font-weight: bold;
-	color: rgb(207,46,141);
+	font-variant-caps: small-caps;
+	text-align: center;
+	margin-top: 1px;
+	color: rgb(211,60,113);
 }
 
 h2 {
 	font-size: 2em;
-	font-family: kohinoor devanagari;
+	font-family: gill sans;
+	font-variant-caps: small-caps;
 	color: rgb(0,0,0);
+	margin-bottom: 10px;
 }
 
 h3 {
 	font-weight: 1.5em;
 	font-family: gotham, book;
-	color: rgb(0,0,0);
+	color: rgb(0,0,0); 
+	margin-bottom: 25px;
+	line-height: 1.5em;
 }
 
 h4 {
-	font-size: 12em;
-	color: rgb(255,255,255);
-	font-family: kohinoor devanagari;
-	font-style: italic;
+	font-size: 18em;
+	color: rgb(41,53,42);
+	font-family: gill sans;
+	font-style: bold;
+	text-align: center;
+	margin-bottom: 1px;
 }
+
+
+h5 {
+	font-size: 2em;
+	font-family: gill sans;
+	font-style: bold;
+	color: rgb(15,19,15);
+}
+
+
+h6 {
+	font-size: 9em;
+	color: rgb(255,255,255);
+	font-family: gill sans;
+	font-style: bold;
+	text-align: center;
+
+}
+
+
+
+
+
+
 
 	
 .purple-flower {
-	background: rgb(141,113,124);
+	background: rgb(129,110,119);
 }
 
 .olive-buff {
-	background: rgb(169,152,103);
+	background: rgb(180,90,109);
 }
 
 
-.violet-blue {
-	background: rgb(53,53,80);
-}
+
+
 
 
 
 
 .projects {
-	height: 120px;
-	background: rgb(222,240,245);
+	height: 155px;
+	background: rgb(255,255,255);
 }
 
 .confounding_tools {
-	height: 220px;
+	height: 125px;
 	background: rgb(199,200,171);
 }
 
 .parametrics_and_generation {
-	height: 220px;
-	background: rgb(92,28,49);
+	height: 125px;
+	background: rgb(214,143,158);
 }
 
-.me_of_the_screen {
-	height: 220px;
+.measuring_time {
+	height: 125px;
 	background: rgb(102,144,148);
 }
 
-.proces {
-	height: 120px;
-	background: rgb(247,223,204);
+.proces_work {
+	height: 125px;
+	background: rgb(238,245,255);
 }
 
 
